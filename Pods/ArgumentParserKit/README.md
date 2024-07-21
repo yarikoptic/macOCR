@@ -50,7 +50,7 @@ Use the initializer of the `ArgumentParser` class.
 /// Create an argument parser.
 ///
 /// - Parameters:
-///   - commandName: If provided, this will be substitued in "usage" line of the generated usage text.
+///   - commandName: If provided, this will be substituted in "usage" line of the generated usage text.
 ///   Otherwise, first command line argument will be used.
 ///   - usage: The "usage" line of the generated usage text.
 ///   - overview: The "overview" line of the generated usage text.

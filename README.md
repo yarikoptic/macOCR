@@ -1,7 +1,7 @@
 # macOCR
 
 macOCR is a command line app that enables you to turn any text on your screen into text on your clipboard.
-When you envoke the `ocr` command, a "screen capture" like cursor is shown. 
+When you invoke the `ocr` command, a "screen capture" like cursor is shown. 
 Any text within the bounds will be converted to text. 
 
 You could invoke the app using the likes of [Alfred.app](https://www.alfredapp.com/), [LaunchBar](https://obdev.at/products/launchbar/index.html), [Hammerspoon](http://www.hammerspoon.org/), [Quicksilver](https://qsapp.com/), [Raycast](https://raycast.com/) etc.
@@ -10,7 +10,7 @@ Examples:
 - [macOS Shortcut Workflow](https://www.icloud.com/shortcuts/fa91687e481849d6a27ff873ec71599b)
 - [Alfred.app Workflow](https://files.littlebird.com.au/OCR2-ONrTkn.zip)
 - [Raycast Script](https://gist.github.com/cheeaun/1405816e5ceb397cbc9028204f82dc98)
-- [LaunchBar Aciton](https://github.com/jsmjsm/macOCR-LaunchBar-Action)
+- [LaunchBar Action](https://github.com/jsmjsm/macOCR-LaunchBar-Action)
 
 An example Alfred.app workflow is [available here](https://files.littlebird.com.au/OCR2-ONrTkn.zip).
 
@@ -57,7 +57,7 @@ When running the app the first time, you will likely be asked to allow the app a
 2. Create new `Shortcut`
 3. Add `Run Shell script`
 4. Set input as `/usr/local/bin/ocr` (runs this app)
-5. Goto `Shorcut Details` 
+5. Goto `Shortcut Details` 
   
 <img width="300px" src="https://user-images.githubusercontent.com/11782590/164676495-3c07a73f-5254-47eb-a4ff-d6a943617954.png" alt="settings" />
 

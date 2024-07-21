@@ -125,7 +125,7 @@ public enum ShellCompletion {
 /// Conforming to this protocol will qualify the type to act as
 /// positional and option arguments in the argument parser.
 public protocol ArgumentKind {
-    /// Throwable convertion initializer.
+    /// Throwable conversion initializer.
     init(argument: String) throws
 
     /// Type of shell completion to provide for this argument.
@@ -367,7 +367,7 @@ public final class PositionalArgument<Kind>: ArgumentProtocol {
 
     let name: String
 
-    // Postional arguments don't need short names.
+    // Positional arguments don't need short names.
     var shortName: String? { return nil }
 
     let strategy: ArrayParsingStrategy
@@ -631,7 +631,7 @@ public final class ArgumentParser {
     /// Create an argument parser.
     ///
     /// - Parameters:
-    ///   - commandName: If provided, this will be substitued in "usage" line of the generated usage text.
+    ///   - commandName: If provided, this will be substituted in "usage" line of the generated usage text.
     ///   Otherwise, first command line argument will be used.
     ///   - usage: The "usage" line of the generated usage text.
     ///   - overview: The "overview" line of the generated usage text.
